@@ -7,7 +7,7 @@
   align-items: center;
   width: 30px;
   height: 30px;
-  background: #ffffff;
+  background: $main-white-color;
   color: $title-text-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
@@ -16,7 +16,7 @@
 
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
     outline: none;
   }
 
