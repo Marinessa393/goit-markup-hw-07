@@ -1,0 +1,46 @@
+.policy {
+  display: inline-block;
+  margin-bottom: 30px;
+
+  & a {
+    display: inline;
+    color: $accent-color;
+    text-decoration: underline;
+  }
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  position: absolute;
+
+  &:checked ~ .agreement::before {
+    background-color: $accent-color;
+    background-image: url(../images/svg/check.svg);
+    background-size: contain;
+    border-color: $accent-color;
+    background-origin: border-box;
+  }
+}
+
+.agreement {
+  width: 448px;
+  line-height: 1.71;
+  padding-left: 14px;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    vertical-align: text-top;
+    background-color: $main-white-color;
+    border: 2px solid $title-text-color;
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

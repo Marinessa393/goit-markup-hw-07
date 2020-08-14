@@ -1,0 +1,21 @@
+.footer-address {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 292, 5px - 30;
+  margin-right: 30px;
+}
+
+.address-container {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  text-transform: none;
+
+  & .text:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
+.footer-contacts {
+  color: $footer-text-color;
+}

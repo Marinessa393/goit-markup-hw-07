@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: $primary-text-color;
+  background-color: $main-white-color;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
