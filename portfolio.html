@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- шапка -->
+    <header class="header-portfolio">
+      <div class="container header-box">
+        <nav class="navigation">
+          <a href="./index.html" class="logo"
+            ><span class="logo-part">Web</span> Studio</a
+          >
+          <ul class="nav-list">
+            <li>
+              <a href="./index.html" class="nav-link">Студия</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="nav-link current">Портфолио</a>
+            </li>
+            <li>
+              <a href="" class="nav-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="contacts">
+          <li>
+            <a href="mailto:info@devstudio.com" class="contacts-link">
+              <svg class="contacts-icon" width="16" height="12">
+                <use href="./images/svg/symbol-defs.svg#envelope"></use>
+              </svg>
+              <p>info@devstudio.com</p>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="contacts-link">
+              <svg class="contacts-icon" width="10" height="15">
+                <use href="./images/svg/symbol-defs.svg#smartphone"></use>
+              </svg>
+              <p>+38 096 111 11 11</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- фильтры -->
+    <section class="section">
+      <div class="container portfolio">
+        <h1 class="primary-title hidden">Портфолио</h1>
+        <!-- фильтры -->
+        <ul class="filter-buttons">
+          <li class="item">
+            <button type="button" class="btn">Все</button>
+          </li>
+          <li class="item">
+            <button type="button" class="btn">Веб-сайты</button>
+          </li>
+          <li class="item">
+            <button type="button" class="btn">Приложения</button>
+          </li>
+          <li class="item">
+            <button type="button" class="btn">Дизайн</button>
+          </li>
+          <li class="item">
+            <button type="button" class="btn">Маркетинг</button>
+          </li>
+        </ul>
+      </div>
+      <!-- примеры работ -->
+      <div class="container">
+        <ul class="examples">
+          <li class="examples-item">
+            <a href="" class="ex-link">
+              <div class="ex-img">
+                <img src="./images/project1.jpg" alt="" width="370" />
+                <p class="examples-overlay">
+                  В этой версии программы исправлены старые баги и добавлены
+                  новые.
+                </p>
+              </div>
+              <h2 class="examples-title">Технокряк</h2>
+              <p class="examples-category">Веб-сайт</p>
+            </a>
+          </li>
+          <li class="examples-item">
+            <a href="" class="ex-link">
+              <div class="ex-img">
+                <img src="./images/project2.jpg" alt="" width="370" />
+                <p class="examples-overlay">
+                  С утра моешься подогретой водой в тазике. Зато потом весь день
+                  — брифинги, диджитал, интеграция бизнеса в технологии 21 века.
+                </p>
+              </div>
+              <div class="ex-meta">
+                <h2 class="examples-title">Постер New Orlean vs Golden Star</h2>
+                <p class="examples-category">Дизайн</p>
+              </div>
+            </a>
+          </li>
+          <li class="examples-item">
+            <a href="" class="ex-link">
+              <div class="ex-img">
+                <img src="./images/project3.jpg" alt="" width="370" />
+                <p class="examples-overlay">
+                  Падает комп с 16-го этажа и думает: "Вот сейчас бы зависнуть"
+                </p>
+              </div>
+              <h2 class="examples-title">Ресторан Seafood</h2>
+              <p class="examples-category">Приложение</p>
+            </a>
+          </li>
+          <li class="examples-item">
+            <a href="" class="ex-link">
+              <div class="ex-img">
+                <img src="./images/project4.jpg" alt="" width="370" />
+                <p class="examples-overlay">
+                  Чувашские хакеры взломали трансформаторную будку, хакнули
+                  несколько киловатт и испарились без следов.
+                </p>
+              </div>
+              <h2 class="examples-title">Проект Prime</h2>
+              <p class="examples-category">Маркетинг</p>
+            </a>
+          </li>
+          <li class="examples-item">
+            <a href="" class="ex-link">
+              <div class="ex-img">
+                <img src="./images/project5.jpg" alt="" width="370" />
+                <p class="examples-overlay">
+                  Слушай, я давно не писал ручкой. Ты не знаешь, где у нее можно
+                  поменять раскладку с русской на английскую?
+                </p>
+              </div>
+              <h2 class="examples-title">Проект Boxes</h2>
+              <p class="examples-category">Приложение</p>
+            </a>
+          </li>
+          <li class="examples-item">
+            <a href="" class="ex-link">
+              <div class="ex-img">
+                <img src="./images/project6.jpg" alt="" width="370" />
+                <p class="examples-overlay">
+                  Решил занять у друга 1000 гривен, но для ровного счёта занял
+                  1024.
+                </p>
+              </div>
+              <h2 class="examples-title">Inspiration has no Borders</h2>
+              <p class="examples-category">Веб-сайт</p>
+            </a>
+          </li>
+          <li class="examples-item">
+            <a href="" class="ex-link">
+              <div class="ex-img">
+                <img src="./images/project7.jpg" alt="" width="370" />
+                <p class="examples-overlay">
+                  Народная примета. Если вы видите сисадмина с чистой головой,
+                  значит, недавно был дождь.
+                </p>
+              </div>
+              <h2 class="examples-title">Издание Limited Edition</h2>
+              <p class="examples-category">Дизайн</p>
+            </a>
+          </li>
+          <li class="examples-item">
+            <a href="" class="ex-link">
+              <div class="ex-img">
+                <img src="./images/project8.jpg" alt="" width="370" />
+                <p class="examples-overlay">
+                  Если бы я не был программистом, я, наверное, хирургом бы стал:
+                  люблю, знаете ли, поковыряться во всякой фигне непонятной.
+                </p>
+              </div>
+              <h2 class="examples-title">Проект LAB</h2>
+              <p class="examples-category">Маркетинг</p>
+            </a>
+          </li>
+          <li class="examples-item">
+            <a href="" class="ex-link">
+              <div class="ex-img">
+                <img src="./images/project9.jpg" alt="" width="370" />
+                <p class="examples-overlay">
+                  Программисты на работе общаются двумя фразами: "непонятно" и
+                  "вроде работает".
+                </p>
+              </div>
+              <h2 class="examples-title">Business</h2>
+              <p class="examples-category">Приложение</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- футер -->
+    <footer>
+      <!-- адрес -->
+      <div class="container footer-box">
+        <div class="footer-address">
+          <a href="./index.html" class="logo"
+            ><span class="logo-part">Web</span> Studio</a
+          >
+          <address class="address-container">
+            <p class="text">г. Киев, пр-т Леси Украинки, 26</p>
+            <span class="footer-contacts">
+              <p class="text">info@example.com</p>
+              <p class="text">+38 099 111 11 11</p>
+            </span>
+          </address>
+        </div>
+        <!-- ссылки на социальные сети -->
+        <div class="footer-socials">
+          <b>присоединяйтесь</b>
+          <ul class="socials-list">
+            <li class="item">
+              <a href="https://www.instagram.com/" class="link">
+                <svg class="footer-socials-icon">
+                  <use href="./images/svg/symbol-defs.svg#logo-insta"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="https://twitter.com/" class="link">
+                <svg class="footer-socials-icon">
+                  <use href="./images/svg/symbol-defs.svg#logo-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="https://www.facebook.com/" class="link">
+                <svg class="footer-socials-icon">
+                  <use href="./images/svg/symbol-defs.svg#logo-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="item">
+              <a href="https://www.linkedin.com" class="link">
+                <svg class="footer-socials-icon">
+                  <use href="./images/svg/symbol-defs.svg#logo-in"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- форма подписки на рассылку -->
+        <div class="footer-mail">
+          <b>Подпишитесь на рассылку</b>
+          <form action="" class="form">
+            <input
+              type="email"
+              name="email"
+              class="footer-input"
+              placeholder="E-mail"
+            />
+
+            <button type="submit" class="main-button submit-btn">
+              Подписаться
+              <svg class="button-icon">
+                <use href="./images/svg/symbol-defs.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
