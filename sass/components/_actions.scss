@@ -3,7 +3,7 @@
 
   & .list {
     position: relative;
-    width: (1170px - 60) / 3;
+    width: calc((100% - 60px) / 3);
     margin-right: 30px;
   }
 
