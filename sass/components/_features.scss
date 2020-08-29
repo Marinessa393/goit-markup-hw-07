@@ -4,7 +4,6 @@
 
 .features {
   display: flex;
-  line-height: 1.7;
 
   & .list {
     width: calc((100% - 90px) / 4);
@@ -12,6 +11,7 @@
     & p {
       margin-top: 0;
       margin-bottom: 0;
+      line-height: 1.71;
     }
   }
 

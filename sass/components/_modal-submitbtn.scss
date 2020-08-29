@@ -1,12 +1,11 @@
 .submit-btn {
   margin-right: auto;
   margin-left: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
   &:hover,
   &:focus {
-    background-color: #188ce8;
     color: $main-white-color;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    background-color: #188ce8;
   }
 }

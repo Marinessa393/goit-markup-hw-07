@@ -1,8 +1,5 @@
 .footer-address {
-  margin-top: 60px;
-  margin-bottom: 60px;
   width: calc(25% - 30px);
-  margin-right: 30px;
 }
 
 .address-container {
@@ -11,11 +8,15 @@
   line-height: 1.7;
   text-transform: none;
 
-  & .text:not(:last-child) {
-    margin-bottom: 9px;
+  .text {
+    margin: 0;
   }
 }
 
 .footer-contacts {
   color: $footer-text-color;
+
+  .text {
+    margin-top: 9px;
+  }
 }
